@@ -102,7 +102,7 @@
     background: #7f7fff;
     border: 5px solid #7f7fff;
     border-left: none;
-    border-radius: 0 20px 0 0;
+    border-radius: 0 20px 0 20px;
     overflow: hidden;
     z-index: 1;
 
@@ -121,7 +121,7 @@
         height: 98%;
         aspect-ratio: 16 / 9;
         object-fit: contain;
-        border-radius: 0 20px 0 20px;
+        border-radius: 20px;
       }
     }
   }
@@ -137,6 +137,7 @@
     border-radius: 0 20px 20px 0;
     padding: 20px 40px;
     border: 5px solid #7f7fff;
+    overflow: hidden;
 
     .swiper-slide{
       width: 100%;
