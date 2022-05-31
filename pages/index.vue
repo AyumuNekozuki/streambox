@@ -74,7 +74,6 @@ export default {
         allowTouchMove: false,
         slidesPerView: 1,
         loop: true,
-        speed: 500,
       },
     };
   },
