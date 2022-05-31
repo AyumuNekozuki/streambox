@@ -102,12 +102,11 @@
     background: #7f7fff;
     border: 5px solid #7f7fff;
     border-left: none;
-    border-radius: 0 20px 0 20px;
+    border-radius: 20px;
     overflow: hidden;
     z-index: 1;
 
     .swiper-slide{
-      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -129,13 +128,13 @@
   .text_area{
     position: absolute;
     height: 140px;
-    left: 430px;
+    left: 450px;
     bottom: 20px;
 
-    width: 1145px;
+    width: 1125px;
     background-color: white;
-    border-radius: 0 20px 20px 0;
-    padding: 20px 40px;
+    border-radius: 20px;
+    padding: 20px;
     border: 5px solid #7f7fff;
     overflow: hidden;
 
